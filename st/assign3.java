@@ -57,7 +57,7 @@ class TestClass {
                     if(arr[i+1][j+1]=='*' && i+1>=1 && i+1<=n && j+1>=1 && j+1 <=m)
                      count++;       
 
-                    arr[i][j]=Character.forDigit(count,10);  ; 
+                    arr[i][j]=Character.valueOf(count); 
                 }
                 System.out.print(arr[i][j]+" ");
             }
