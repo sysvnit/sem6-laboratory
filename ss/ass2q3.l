@@ -1,5 +1,5 @@
 %{
-    int identifier=0;
+    int identifier=2;
 %}
 
 %%
