@@ -124,6 +124,7 @@ function draw() {
     // if the snake eats the food
     if (snakeX == food.x && snakeY == food.y) {
         score++;
+        console.log("Had another food,score is `score`");
         if (score == 1) {
             snake = [];
             snake[0] = initpos;
