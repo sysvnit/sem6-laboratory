@@ -106,7 +106,8 @@ function draw() {
 
 
     for (let i = 0; i < snake.length; i++) {
-        ctx.fillStyle = (i == 0) ? "green" : "white";
+        //changing color enhances experience
+        ctx.fillStyle = (i == 0) ? "blue" : "red";
         ctx.fillRect(snake[i].x, snake[i].y, box, box);
 
     }
