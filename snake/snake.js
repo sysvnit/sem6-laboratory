@@ -47,13 +47,16 @@ function direction(event) {
     let key = event.keyCode;
     if (key == 37 && d != "RIGHT") {
         d = "LEFT";
+        console.log("Turned `d`");
     } else if (key == 38 && d != "DOWN") {
         d = "UP";
+        console.log("Turned `d`");
     } else if (key == 39 && d != "LEFT") {
         d = "RIGHT";
+        console.log("Turned `d`");
     } else if (key == 40 && d != "UP") {
         d = "DOWN";
-
+        console.log("Turned `d`");
     }
 }
 
